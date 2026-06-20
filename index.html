@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gyanendra Kumar Rajbhar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">GKR</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="theme-toggle" id="themeToggle">
+                <span class="moon-icon">🌙</span>
+                <span class="sun-icon">☀️</span>
+
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section with 3D Profile Photo -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-container">
+                <div class="profile-card">
+                    <div class="profile-image-wrapper">
+                        <img src="profile.jpg" alt="Profile Photo" class="profile-image">
+                        <div class="profile-border"></div>
+                        <div class="profile-glow"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Gyanendra Kumar Rajbhar</span></h1>
+                <p class="hero-subtitle">BSc.CSIT Student | Web Developer | Tech & AI Enthusiast</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary"
+                        onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">View My
+                        Work</button>
+                    <button class="btn btn-secondary"
+                        onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get in
+                        Touch</button>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate BSc.CSIT student dedicated to building innovative solutions with web
+                        technologies. With a strong foundation in computer science fundamentals, I specialize in
+                        creating responsive and dynamic web applications.</p>
+                    <p>My journey in technology has equipped me with skills in frontend development, problem-solving,
+                        and collaborative teamwork. I'm constantly learning and exploring new technologies to stay
+                        updated with industry trends.</p>
+                    <div class="education-box">
+                        <h3>Education</h3>
+                        <p><strong>Bachelor of Science in Computer Science and Information Technology</strong></p>
+                        <p class="university"><b>Tribhuvan University</b></p>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <!-- <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects</div>
+                    </div> -->
+                    <div class="stat-card">
+                        <div class="stat-number">MS Dhoni</div>
+                        <div class="stat-label">Favorite</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">Playing Cricket</div>
+                        <div class="stat-label">Hobby</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <!-- <span class="skill-tag">React</span> -->
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">PHP</span>
+                        <!-- <span class="skill-tag">Express</span> -->
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">VS Code</span>
+                        <!-- <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Firebase</span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                    </div>
+                    <div class="project-content">
+                        <h3>Working on project</h3>
+                        <p></p>
+                        
+                    </div>
+                </div>
+                <!-- <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Two</h3>
+                        <p>An innovative solution that demonstrates expertise in full-stack development and UI/UX
+                            design.</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>Python</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Three</h3>
+                        <p>A creative project combining cutting-edge technologies to solve real-world problems.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>Express</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Four</h3>
+                        <p>An ambitious project showcasing advanced problem-solving skills and technical expertise.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </section>
+
+    <!--Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-box">
+                        <i class="icon">✉</i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:rajbhargk2059@gmail.com">rajbhargk2059@gmail.com</a></p>
+                    </div>
+                    <div class="info-box">
+                        <i class="icon">📱</i>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+9779748823062">+977-9748823062</a></p>
+                    </div>
+                    <div class="info-box">
+                        <i class="icon">📍</i>
+                        <h3>Location</h3>
+                        <p>Bhairahawa, Nepal</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div> 
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/gksrajbhar2" class="social-link">GitHub</a>
+                <a href="https://np.linkedin.com/in/gyanendra-kumar-rajbhar-8332b5319" class="social-link">LinkedIn</a>
+                <a href="https://tiktok.com/@rajbhar_2.0_s" class="social-link">TikTok</a>
+                <a href="https://instagram.com/rajbhar_2.0_s" class="social-link">Instagram</a>
+            </div>
+            <p>&copy; 2026 Gyanendra Kumar Rajbhar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
